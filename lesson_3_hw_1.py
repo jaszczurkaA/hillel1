@@ -19,10 +19,12 @@ print(c, d)
 e = int(input())
 f = int(input())
 
-g = e
-e = e - e + f
-f = f - f + g
+e = e + f
+f = e - f
+e = e- f
+
 print(e, f)
+
 
 
 
