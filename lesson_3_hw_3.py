@@ -7,9 +7,9 @@ deth = parts[2]
 b = int(born[0:4])
 c = int(deth[0:4])
 
-print('Age:')
-print(c - b)
-print('years')
+print('Age:', (c- b),'years')
+
+
 
 
 
